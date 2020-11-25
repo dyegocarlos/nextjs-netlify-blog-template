@@ -13,10 +13,12 @@ export default function Index() {
       <div className="container">
         <div>
           <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
+            Olá, meninos, meninas e pessoas que não se identificam com nenhum dos dois sexos. 
+            Bem-vinde ao meu blog. :)
           </h1>
           <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
+          <h2>Aqui eu vou postar coisas aleatórias.</h2>
+          <h4 className="fancy">Este blog foi feito usando template de Next.js com Netlify.</h4>
           <SocialList />
         </div>
       </div>
@@ -54,6 +56,9 @@ export default function Index() {
           }
           h2 {
             font-size: 2.25rem;
+          }
+          h4 {
+            font-size: 1.25rem;
           }
         }
       `}</style>
